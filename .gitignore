@@ -1,0 +1,18 @@
+# Build artifacts
+/dist/
+/build/
+splitvision.build/
+splitvision.dist/
+splitvision.onefile-build/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller spec file is part of the source tree
+!splitvision.spec
+
+# Local agent and workspace metadata
+.agents/
